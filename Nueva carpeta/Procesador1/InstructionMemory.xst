@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/xst"
+elaborate
+-ifn InstructionMemory.prj
+-ifmt mixed

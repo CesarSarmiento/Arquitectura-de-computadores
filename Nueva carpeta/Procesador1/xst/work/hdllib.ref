@@ -1,0 +1,6 @@
+EN adder NULL C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/Adder.vhd sub00/vhpl02 1476146176
+AR instructionmemory behavioral C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/InstructionMemory.vhd sub00/vhpl05 1476198675
+EN instructionmemory NULL C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/InstructionMemory.vhd sub00/vhpl04 1476198674
+AR adder behavioral C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/Adder.vhd sub00/vhpl03 1476146177
+AR next_program_counter behavioral C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/Next_Program_Counter.vhd sub00/vhpl01 1476198219
+EN next_program_counter NULL C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/Next_Program_Counter.vhd sub00/vhpl00 1476198218
