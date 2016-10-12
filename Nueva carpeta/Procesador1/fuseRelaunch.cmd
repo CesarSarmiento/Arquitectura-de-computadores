@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Instruction_Memory_isim_beh.exe" -prj "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Instruction_Memory_beh.prj" "work.Test_Instruction_Memory" 

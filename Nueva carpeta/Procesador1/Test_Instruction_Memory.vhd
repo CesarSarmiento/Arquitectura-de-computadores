@@ -78,7 +78,7 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
 				Rst <='0';
-				DireccionInstr <= x"00000001";
+				DireccionInstr <= "00000000000000000000000000000000";
 
       
 
