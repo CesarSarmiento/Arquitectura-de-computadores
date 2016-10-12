@@ -1,23 +1,21 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Instruction_Memory_isim_beh.exe -prj C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Instruction_Memory_beh.prj work.Test_Instruction_Memory 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Adder_isim_beh.exe -prj C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Adder_beh.prj work.Test_Adder 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 2
 Turning on mult-threading, number of parallel sub-compilation jobs: 4 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/InstructionMemory.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Instruction_Memory.vhd" into library work
+Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.vhd" into library work
+Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Adder.vhd" into library work
 Starting static elaboration
-WARNING:HDLCompiler:1196 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/InstructionMemory.vhd" Line 51: Readline called past the end of file romfile
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
-Compiling package textio
-Compiling architecture behavioral of entity InstructionMemory [instructionmemory_default]
-Compiling architecture behavior of entity test_instruction_memory
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavior of entity test_adder
 Time Resolution for simulation is 1ps.
-Waiting for 3 sub-compilation(s) to finish...
-Compiled 8 VHDL Units
-Built simulation executable C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Instruction_Memory_isim_beh.exe
-Fuse Memory Usage: 32744 KB
-Fuse CPU Usage: 1903 ms
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Adder_isim_beh.exe
+Fuse Memory Usage: 32312 KB
+Fuse CPU Usage: 1872 ms

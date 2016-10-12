@@ -2,10 +2,10 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   19:37:07 10/10/2016
+-- Create Date:   13:24:45 10/12/2016
 -- Design Name:   
--- Module Name:   C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/Test_Adder.vhd
--- Project Name:  Procesador_monociclo_sin_inmediato
+-- Module Name:   C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Adder.vhd
+-- Project Name:  Procesador1
 -- Target Device:  
 -- Tool versions:  
 -- Description:   
@@ -57,7 +57,7 @@ ARCHITECTURE behavior OF Test_Adder IS
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-  
+   
  
 BEGIN
  
@@ -69,21 +69,20 @@ BEGIN
         );
 
    -- Clock process definitions
-   
- 
+  
 
    -- Stimulus process
    stim_proc: process
-   begin
-		Operador1 <= x"00000101";
-		Operador2 <= x"00000001";
+   begin		
+     Operador1 <= "00000000000000000000000000000101";
+	  Operador2 <= "00000000000000000000000000000001";
       -- hold reset state for 100 ns.
       wait for 100 ns;
-		Operador1 <= x"00001101";
-		Operador2 <= x"00000001";		
+		Operador1 <= "00000000000000000000000000001101";
+		Operador2 <= "00000000000000000000000000000001";		
       wait for 100 ns;
-		Operador1 <= x"00000111";
-		Operador2 <= x"00000001";
+		Operador1 <= "00000000000000000000000000000111";
+		Operador2 <= "00000000000000000000000000000001";
 
       -- insert stimulus here 
 

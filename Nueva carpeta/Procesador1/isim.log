@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\Cesar\Documents\GitHub\Arquitectura-de-computadores\Nueva carpeta\Procesador1\Test_Instruction_Memory_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Instruction_Memory_isim_beh.wdb 
+Running: C:\Users\Cesar\Documents\GitHub\Arquitectura-de-computadores\Nueva carpeta\Procesador1\Test_Adder_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Adder_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 ----------------------------------------------------------------------
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to 'C:\Users\Cesar\Downloads\windows_flexlm_v11.11'.

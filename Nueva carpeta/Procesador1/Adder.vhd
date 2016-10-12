@@ -41,6 +41,7 @@ architecture Behavioral of Adder is
 begin
 		process(Operador1,Operador2)
 		begin 
+		
 		ResultadoAdder <= Operador1+Operador2;
 		
 		end process;

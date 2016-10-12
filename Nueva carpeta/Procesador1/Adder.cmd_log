@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.xst" -ofn "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.syr" 
