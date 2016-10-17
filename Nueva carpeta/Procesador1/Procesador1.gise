@@ -78,6 +78,8 @@
     <transform xil_pn:end_ts="1476717321" xil_pn:in_ck="-4041690756028467745" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1476717320">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="Adder.vhd"/>
       <outfile xil_pn:name="InstructionMemory.vhd"/>
       <outfile xil_pn:name="Next_Program_Counter.vhd"/>
@@ -102,6 +104,7 @@
     <transform xil_pn:end_ts="1476717327" xil_pn:in_ck="-4041690756028467745" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1476717327">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Adder.vhd"/>
       <outfile xil_pn:name="InstructionMemory.vhd"/>
       <outfile xil_pn:name="Next_Program_Counter.vhd"/>
@@ -114,6 +117,9 @@
     <transform xil_pn:end_ts="1476717343" xil_pn:in_ck="-4041690756028467745" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8834124207914834242" xil_pn:start_ts="1476717327">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Test_Register_File_beh.prj"/>
       <outfile xil_pn:name="Test_Register_File_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -124,6 +130,9 @@
     <transform xil_pn:end_ts="1476717344" xil_pn:in_ck="-6609478661588448921" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6642622443372251489" xil_pn:start_ts="1476717343">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Test_Register_File_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
