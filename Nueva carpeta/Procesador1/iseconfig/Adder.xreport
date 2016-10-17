@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-10-11T10:11:25</DateModified>
-  <ModuleName>InstructionMemory</ModuleName>
+  <DateModified>2016-10-17T10:11:13</DateModified>
+  <ModuleName>Register_File</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/iseconfig/Adder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato</ImplementationReportsDirectory>
-  <DateInitialized>2016-10-11T10:11:24</DateInitialized>
+  <SavedFilePath>C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/iseconfig/Adder.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1\</ImplementationReportsDirectory>
+  <DateInitialized>2016-10-17T10:07:29</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Adder_isim_beh.exe" -prj "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Adder_beh.prj" "work.Test_Adder" 
+-intstyle "ise" -incremental -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Register_File_isim_beh.exe" -prj "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Register_File_beh.prj" "work.Test_Register_File" 
