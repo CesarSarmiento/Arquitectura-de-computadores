@@ -2,10 +2,11 @@ AR register_file behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-com
 EN adder NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.vhd" sub00/vhpl02 1476716836
 AR instructionmemory behavioral C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/InstructionMemory.vhd sub00/vhpl05 1476198675
 AR unidad_control behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Unidad_Control.vhd" sub00/vhpl09 1476717889
+AR unidad_aritmetica behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Unidad_Aritmetica.vhd" sub00/vhpl11 1476718389
 EN register_file NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Register_File.vhd" sub00/vhpl06 1476717084
 EN unidad_control NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Unidad_Control.vhd" sub00/vhpl08 1476717888
 EN instructionmemory NULL C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/InstructionMemory.vhd sub00/vhpl04 1476198674
-EN unidad_aritmetica NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Unidad_Aritmetica.vhd" sub00/vhpl10 1476718351
+EN unidad_aritmetica NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Unidad_Aritmetica.vhd" sub00/vhpl10 1476718388
 AR adder behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.vhd" sub00/vhpl03 1476716837
 AR next_program_counter behavioral C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/Next_Program_Counter.vhd sub00/vhpl01 1476198219
 EN next_program_counter NULL C:/Users/Cesar/Desktop/universidad/arquitectura_de_computadores/Xilinx/Procesador_monociclo_sin_inmediato/Next_Program_Counter.vhd sub00/vhpl00 1476198218

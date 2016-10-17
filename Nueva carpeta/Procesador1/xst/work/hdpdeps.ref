@@ -29,12 +29,13 @@ EN work/Register_File 1476717084 \
 AR work/Register_File/Behavioral 1476717085 \
       FL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Register_File.vhd" \
       EN work/Register_File 1476717084
-EN work/Unidad_Aritmetica 0 \
+FL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Unidad_Aritmetica.vhd" 2016/10/17.10:32:59 P.20131013
+EN work/Unidad_Aritmetica 1476718388 \
       FL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Unidad_Aritmetica.vhd" \
-      PB ieee/std_logic_1164 1381692176
-AR work/Unidad_Aritmetica/Behavioral 0 \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Unidad_Aritmetica/Behavioral 1476718389 \
       FL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Unidad_Aritmetica.vhd" \
-      EN work/Unidad_Aritmetica 0
+      EN work/Unidad_Aritmetica 1476718388
 FL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Unidad_Control.vhd" 2016/10/17.10:24:39 P.20131013
 EN work/Unidad_Control 1476717888 \
       FL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Unidad_Control.vhd" \
