@@ -84,12 +84,11 @@
          <ClosedNode>/Test_Register_File - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador2|Test_Register_File.vhd</ClosedNode>
          <ClosedNode>/Test_SEU - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador2|Test_SEU.vhd</ClosedNode>
          <ClosedNode>/Test_Unidad_Aritmetica - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador2|Test_Unidad_Aritmetica.vhd</ClosedNode>
-         <ClosedNode>/Test_Unidad_Control - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador2|Test_Unidad_Control.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem>Test_Procesador2 - behavior (C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador2/Test_Procesador2.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a8000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a80000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
