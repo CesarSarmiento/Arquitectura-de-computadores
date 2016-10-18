@@ -1,0 +1,6 @@
+[Inputs]
+Rst
+=DireccionInstr[31:0]=
+[Outputs]
+=InstruccionSIM[31:0]=
+[BiDir]

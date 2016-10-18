@@ -1,0 +1,134 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.35 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.36 secs
+ 
+--> Reading design: Procesador_Sin_Inmediato.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Procesador_Sin_Inmediato.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Procesador_Sin_Inmediato"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : Procesador_Sin_Inmediato
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Adder.vhd" in Library work.
+Architecture behavioral of Entity adder is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Next_Program_Counter.vhd" in Library work.
+Architecture behavioral of Entity next_program_counter is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/InstructionMemory.vhd" in Library work.
+Architecture behavioral of Entity instructionmemory is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Unidad_Control.vhd" in Library work.
+Architecture behavioral of Entity unidad_control is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Register_File.vhd" in Library work.
+Architecture behavioral of Entity register_file is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Unidad_Aritmetica.vhd" in Library work.
+Architecture behavioral of Entity unidad_aritmetica is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Procesador_Sin_Inmediato.vhd" in Library work.
+Architecture behavioral of Entity procesador_sin_inmediato is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Procesador_Sin_Inmediato> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Adder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Next_Program_Counter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <InstructionMemory> in library <work> (architecture <behavioral>).
+WARNING:Xst:2359 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/InstructionMemory.vhd" line 57: Failed to open file "programa.data".
+ERROR:Xst:1920 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/InstructionMemory.vhd" line 50: File <RomFile> is closed.
+INTERNAL_ERROR:Xst:cmain.c:3464:1.56 -  Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.  

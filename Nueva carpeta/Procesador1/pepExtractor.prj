@@ -1,1 +1,7 @@
+work	"Adder.vhd"
+work	"InstructionMemory.vhd"
+work	"Next_Program_Counter.vhd"
+work	"Procesador_Sin_Inmediato.vhd"
+work	"Register_File.vhd"
 work	"Unidad_Aritmetica.vhd"
+work	"Unidad_Control.vhd"

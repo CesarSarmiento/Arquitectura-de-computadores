@@ -1,0 +1,15 @@
+AR register_file behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Register_File.vhd" sub00/vhpl09 1476742101
+EN adder NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Adder.vhd" sub00/vhpl00 1476742092
+AR instructionmemory behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/InstructionMemory.vhd" sub00/vhpl05 1476742097
+AR unidad_control behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Unidad_Control.vhd" sub00/vhpl07 1476742099
+AR unidad_aritmetica behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Unidad_Aritmetica.vhd" sub00/vhpl11 1476742103
+EN register_file NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Register_File.vhd" sub00/vhpl08 1476742100
+EN unidad_control NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Unidad_Control.vhd" sub00/vhpl06 1476742098
+EN test_procesador1 NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Test_Procesador1.vhd" sub00/vhpl14 1476741971
+EN instructionmemory NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/InstructionMemory.vhd" sub00/vhpl04 1476742096
+EN unidad_aritmetica NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Unidad_Aritmetica.vhd" sub00/vhpl10 1476742102
+EN procesador_sin_inmediato NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Procesador_Sin_Inmediato.vhd" sub00/vhpl12 1476742104
+AR adder behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Adder.vhd" sub00/vhpl01 1476742093
+AR procesador_sin_inmediato behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Procesador_Sin_Inmediato.vhd" sub00/vhpl13 1476742105
+AR next_program_counter behavioral "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Next_Program_Counter.vhd" sub00/vhpl03 1476742095
+EN next_program_counter NULL "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Next_Program_Counter.vhd" sub00/vhpl02 1476742094

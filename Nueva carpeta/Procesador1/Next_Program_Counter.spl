@@ -1,0 +1,7 @@
+[Inputs]
+Clk
+Rst
+=In_Next[31:0]=
+[Outputs]
+=Out_Next[31:0]=
+[BiDir]

@@ -1,0 +1,1 @@
+vhdtdtfi -prj ce -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Next_Program_Counter.vhi" -module Next_Program_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Next_Program_Counter.vhd 

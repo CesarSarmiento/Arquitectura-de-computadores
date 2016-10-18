@@ -1,0 +1,10 @@
+Command line:
+   Test_Procesador2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49503
+
+Tue Oct 18 09:39:51 2016
+
+
+ Elaboration Time: 0.140401 sec

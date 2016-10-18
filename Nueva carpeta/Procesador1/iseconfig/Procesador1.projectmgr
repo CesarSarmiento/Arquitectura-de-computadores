@@ -7,32 +7,32 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Procesador_Sin_Inmediato - Behavioral C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador1|Procesador_Sin_Inmediato.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>xc3s500e-5fg320</SelectedItem>
+         <SelectedItem>Procesador1</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000019d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000019d0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ce000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ce0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>xc3s500e-5fg320</CurrentItem>
+      <CurrentItem>Procesador1</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
-         <ClosedNode>Design Utilities</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Check Syntax</SelectedItem>
+         <SelectedItem>View RTL Schematic</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Check Syntax</CurrentItem>
+      <CurrentItem>View RTL Schematic</CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -60,30 +60,34 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Procesador_Sin_Inmediato - Behavioral C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador1|Procesador_Sin_Inmediato.vhd</ClosedNode>
          <ClosedNode>/Test_Adder - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador1|Test_Adder.vhd</ClosedNode>
          <ClosedNode>/Test_Instruction_Memory - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador1|Test_Instruction_Memory.vhd</ClosedNode>
          <ClosedNode>/Test_Next_PC - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador1|Test_Next_PC.vhd</ClosedNode>
+         <ClosedNode>/Test_Procesador1 - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador1|Test_Procesador1.vhd</ClosedNode>
+         <ClosedNode>/Test_Register_File - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador1|Test_Register_File.vhd</ClosedNode>
+         <ClosedNode>/Test_Unidad_Aritmetica - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador1|Test_Unidad_Aritmetica.vhd</ClosedNode>
+         <ClosedNode>/Test_Unidad_Control - behavior C:|Users|Cesar|Documents|GitHub|Arquitectura-de-computadores|Nueva carpeta|Procesador1|Test_Unidad_Control.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>xc3s500e-5fg320</SelectedItem>
+         <SelectedItem>Test_Procesador1 - behavior (C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Procesador1.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a8000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a80000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>xc3s500e-5fg320</CurrentItem>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Test_Procesador1 - behavior (C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Test_Procesador1.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -96,24 +100,25 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
+   <CopyAdditionalFiles/>
 </Project>

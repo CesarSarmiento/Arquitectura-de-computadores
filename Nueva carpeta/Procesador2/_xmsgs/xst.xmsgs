@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2359" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador2/InstructionMemory.vhd</arg>&quot; line <arg fmt="%d" index="2">57</arg>: Failed to open file &quot;<arg fmt="%s" index="3">programa.data</arg>&quot;.
+</msg>
+
+<msg type="error" file="Xst" num="1920" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador2/InstructionMemory.vhd</arg>&quot; line <arg fmt="%d" index="2">50</arg>: File &lt;<arg fmt="%s" index="3">RomFile</arg>&gt; is closed.
+</msg>
+
+<msg type="internal" file="Xst" num="0" delta="new" srcfile="../interf/cmain.c" srcline="3464" srcrcs="1.56" >
+Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support. 
+</msg>
+
+</messages>
+

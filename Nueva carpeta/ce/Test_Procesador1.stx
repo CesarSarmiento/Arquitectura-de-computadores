@@ -1,0 +1,58 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.37 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.37 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Adder.vhd" in Library work.
+Entity <Adder> compiled.
+Entity <Adder> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Next_Program_Counter.vhd" in Library work.
+Entity <Next_Program_Counter> compiled.
+Entity <Next_Program_Counter> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/InstructionMemory.vhd" in Library work.
+Entity <InstructionMemory> compiled.
+Entity <InstructionMemory> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Unidad_Control.vhd" in Library work.
+Entity <Unidad_Control> compiled.
+Entity <Unidad_Control> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Register_File.vhd" in Library work.
+Entity <Register_File> compiled.
+Entity <Register_File> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Unidad_Aritmetica.vhd" in Library work.
+Entity <Unidad_Aritmetica> compiled.
+Entity <Unidad_Aritmetica> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Procesador_Sin_Inmediato.vhd" in Library work.
+Entity <Procesador_Sin_Inmediato> compiled.
+Entity <Procesador_Sin_Inmediato> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Test_Procesador1.vhd" in Library work.
+Entity <Test_Procesador1> compiled.
+ERROR:HDLParsers:1015 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Test_Procesador1.vhd" Line 74. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Test_Procesador1.vhd" Line 76. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/ce/Test_Procesador1.vhd" Line 85. Wait for statement unsupported.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.68 secs
+ 
+--> 
+
+Total memory usage is 213892 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
