@@ -1,8 +1,0 @@
-vhdl work "Unidad_Control.vhd"
-vhdl work "Unidad_Aritmetica.vhd"
-vhdl work "Register_File.vhd"
-vhdl work "Next_Program_Counter.vhd"
-vhdl work "InstructionMemory.vhd"
-vhdl work "Adder.vhd"
-vhdl work "Procesador_Sin_Inmediato.vhd"
-vhdl work "Test_Procesador1.vhd"

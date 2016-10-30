@@ -5,14 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="Xst" num="1927" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/InstructionMemory.vhd</arg>&quot; line <arg fmt="%d" index="2">50</arg>: Readline passed end of file on file &lt;<arg fmt="%s" index="3">RomFile</arg>&gt;.
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">6</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Aluop</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="error" file="Xst" num="1923" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/InstructionMemory.vhd</arg>&quot; line <arg fmt="%d" index="2">51</arg>: Line &lt;<arg fmt="%s" index="3">RomFileLine</arg>&gt; has not enough elements for target &lt;<arg fmt="%s" index="4">temp_bv</arg>&gt;.
-</msg>
-
-<msg type="internal" file="Xst" num="0" delta="new" srcfile="../interf/cmain.c" srcline="3464" srcrcs="1.56" >
-Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support. 
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>

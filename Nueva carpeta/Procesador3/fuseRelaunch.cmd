@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3/Test_Unidad_Control_isim_beh.exe" -prj "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3/Test_Unidad_Control_beh.prj" "work.Test_Unidad_Control" 
