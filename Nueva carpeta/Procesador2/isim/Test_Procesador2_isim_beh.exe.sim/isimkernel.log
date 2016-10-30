@@ -2,12 +2,12 @@ Command line:
    Test_Procesador2_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  49503
+     -socket  49627
 
-Tue Oct 18 09:39:51 2016
+Tue Oct 18 18:58:39 2016
 
 
- Elaboration Time: 0.140401 sec
+ Elaboration Time: 0.156001 sec
 
  Current Memory Usage: 671.027 Meg
 
@@ -21,9 +21,9 @@ Tue Oct 18 09:39:51 2016
  Total Scalar Nets and Variables : 4099
 Total Line Count : 59
 
- Total Simulation Time: 0.171601 sec
+ Total Simulation Time: 0.904806 sec
 
- Current Memory Usage: 985.6 Meg
+ Current Memory Usage: 671.027 Meg
 
-Tue Oct 18 09:41:12 2016
+Tue Oct 18 19:08:06 2016
 

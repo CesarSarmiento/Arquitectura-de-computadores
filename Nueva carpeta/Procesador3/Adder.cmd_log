@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.xst" -ofn "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.syr" 
+vhdtdtfi -prj Procesador1 -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.tfi" -module Adder -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work Adder.vhd 
+vhdtdtfi -prj Procesador1 -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.tfi" -module Adder -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work Adder.vhd 
+xst -intstyle ise -ifn "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.xst" -ofn "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "Adder.ngc" Adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Adder_map.ncd Adder.ngd Adder.pcf 
+vhdtdtfi -prj Procesador1 -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.tfi" -module Adder -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work Adder.vhd 
+vhdtdtfi -prj Procesador1 -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.tfi" -module Adder -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work Adder.vhd 
+vhdtdtfi -prj Procesador1 -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.tfi" -module Adder -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work Adder.vhd 
+vhdtdtfi -prj Procesador1 -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.tfi" -module Adder -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work Adder.vhd 
+xst -intstyle ise -ifn "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.xst" -ofn "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador1/Adder.syr" 
