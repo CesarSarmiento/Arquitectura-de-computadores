@@ -75,7 +75,7 @@ LAB2:    xsi_set_current_line(45, ng0);
 LAB5:    xsi_set_current_line(47, ng0);
     t2 = (t0 + 1032U);
     t5 = *((char **)t2);
-    t9 = (3 - 3);
+    t9 = (0 - 3);
     t10 = (t9 * -1);
     t11 = (1U * t10);
     t12 = (0 + t11);

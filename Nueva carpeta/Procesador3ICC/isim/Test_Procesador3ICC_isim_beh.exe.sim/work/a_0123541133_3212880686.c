@@ -39,7 +39,7 @@ char *work_a_0123541133_3212880686_sub_3189348355_3057020925(char *t1, char *t2,
     char t17[16];
     char t24[32];
     char t28[32];
-    char t36[2048];
+    char t36[1280];
     char t49[16];
     char *t0;
     char *t6;
@@ -128,10 +128,10 @@ LAB0:    t6 = ((STD_TEXTIO) + 3440);
     t30 = (t29 + 0U);
     *((int *)t30) = 0;
     t30 = (t29 + 4U);
-    *((int *)t30) = 63;
+    *((int *)t30) = 39;
     t30 = (t29 + 8U);
     *((int *)t30) = 1;
-    t31 = (63 - 0);
+    t31 = (39 - 0);
     t21 = (t31 * 1);
     t21 = (t21 + 1);
     t30 = (t29 + 12U);
@@ -160,7 +160,7 @@ LAB0:    t6 = ((STD_TEXTIO) + 3440);
     t40 = *((char **)t39);
     *((char **)t38) = t40;
     t41 = (t32 + 80U);
-    *((unsigned int *)t41) = 2048U;
+    *((unsigned int *)t41) = 1280U;
     t42 = (t5 + 4U);
     t43 = (t2 != 0);
     if (t43 == 1)
@@ -169,19 +169,19 @@ LAB0:    t6 = ((STD_TEXTIO) + 3440);
 LAB2:    t44 = (t5 + 12U);
     *((char **)t44) = t3;
     t45 = 0;
-    t46 = 63;
+    t46 = 39;
 
 LAB4:    if (t45 <= t46)
         goto LAB5;
 
 LAB7:    t6 = (t32 + 56U);
     t7 = *((char **)t6);
-    t43 = (2048U != 2048U);
+    t43 = (1280U != 1280U);
     if (t43 == 1)
         goto LAB9;
 
-LAB10:    t0 = xsi_get_transient_memory(2048U);
-    memcpy(t0, t7, 2048U);
+LAB10:    t0 = xsi_get_transient_memory(1280U);
+    memcpy(t0, t7, 1280U);
 
 LAB1:    xsi_access_variable_delete(t11);
     t6 = (t4 + 4U);
@@ -204,7 +204,7 @@ LAB5:    t47 = (t4 + 4U);
     t10 = *((char **)t9);
     t20 = (t45 - 0);
     t8 = (t20 * 1);
-    xsi_vhdl_check_range_of_index(0, 63, 1, t45);
+    xsi_vhdl_check_range_of_index(0, 39, 1, t45);
     t21 = (32U * t8);
     t50 = (0 + t21);
     t9 = (t10 + t50);
@@ -220,7 +220,7 @@ LAB8:    t20 = (t45 + 1);
     t45 = t20;
     goto LAB4;
 
-LAB9:    xsi_size_not_matching(2048U, 2048U, 0);
+LAB9:    xsi_size_not_matching(1280U, 1280U, 0);
     goto LAB10;
 
 LAB11:;
@@ -283,7 +283,7 @@ LAB4:    xsi_set_current_line(66, ng4);
     t17 = ieee_p_3620187407_sub_514432868_3965413181(IEEE_P_3620187407, t1, t14);
     t18 = (t17 - 0);
     t16 = (t18 * 1);
-    xsi_vhdl_check_range_of_index(0, 63, 1, t17);
+    xsi_vhdl_check_range_of_index(0, 39, 1, t17);
     t19 = (32U * t16);
     t20 = (0 + t19);
     t7 = (t2 + t20);
