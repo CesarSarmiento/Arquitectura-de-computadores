@@ -37,3 +37,7 @@ Compiling architecture behavioral of entity Procesador_Sin_Inmediato [procesador
 Compiling architecture behavior of entity test_procesador3icc
 Time Resolution for simulation is 1ps.
 Waiting for 13 sub-compilation(s) to finish...
+Compiled 28 VHDL Units
+Built simulation executable C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Test_Procesador3ICC_isim_beh.exe
+Fuse Memory Usage: 33112 KB
+Fuse CPU Usage: 2215 ms
