@@ -2,12 +2,12 @@ Command line:
    Test_Procesador3ICC_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  50690
+     -socket  50777
 
-Thu Nov 10 08:28:14 2016
+Thu Nov 10 08:41:46 2016
 
 
- Elaboration Time: 0.202801 sec
+ Elaboration Time: 0.187201 sec
 
  Current Memory Usage: 671.035 Meg
 
@@ -21,9 +21,9 @@ Thu Nov 10 08:28:14 2016
  Total Scalar Nets and Variables : 3336
 Total Line Count : 115
 
- Total Simulation Time: 0.218401 sec
+ Total Simulation Time: 0.249602 sec
 
  Current Memory Usage: 985.608 Meg
 
-Thu Nov 10 08:28:50 2016
+Thu Nov 10 08:42:20 2016
 
