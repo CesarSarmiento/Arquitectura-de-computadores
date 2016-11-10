@@ -1,43 +1,22 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Test_Procesador3ICC_isim_beh.exe -prj C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Test_Procesador3ICC_beh.prj work.Test_Procesador3ICC 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Test_WinMan_isim_beh.exe -prj C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Test_WinMan_beh.prj work.Test_WinMan 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 2
 Turning on mult-threading, number of parallel sub-compilation jobs: 4 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Unidad_Control.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Unidad_Aritmetica.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/SEU.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Register_File.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/PSRModifier.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/PSR.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Next_Program_Counter.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/MUX.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/InstructionMemory.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Adder.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Procesador_Sin_Inmediato.vhd" into library work
-Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Test_Procesador3ICC.vhd" into library work
+Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/WinMan.vhd" into library work
+Parsing VHDL file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Test_WinMan.vhd" into library work
 Starting static elaboration
-WARNING:HDLCompiler:1196 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/InstructionMemory.vhd" Line 50: Readline called past the end of file romfile
+WARNING:HDLCompiler:1242 - "N:/P.20131013/rtf/vhdl/src/ieee/std_logic_arith.vhd" Line 2415: Warning: "CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0."
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
-Compiling package textio
-Compiling architecture behavioral of entity Adder [adder_default]
-Compiling architecture behavioral of entity Next_Program_Counter [next_program_counter_default]
-Compiling architecture behavioral of entity InstructionMemory [instructionmemory_default]
-Compiling architecture behavioral of entity Unidad_Control [unidad_control_default]
-Compiling architecture behavioral of entity Register_File [register_file_default]
-Compiling architecture behavioral of entity Unidad_Aritmetica [unidad_aritmetica_default]
-Compiling architecture behavioral of entity SEU [seu_default]
-Compiling architecture behavioral of entity MUX [mux_default]
-Compiling architecture behavioral of entity PSRModifier [psrmodifier_default]
-Compiling architecture behavioral of entity PSR [psr_default]
-Compiling architecture behavioral of entity Procesador_Sin_Inmediato [procesador_sin_inmediato_default]
-Compiling architecture behavior of entity test_procesador3icc
+Compiling architecture behavioral of entity WinMan [winman_default]
+Compiling architecture behavior of entity test_winman
 Time Resolution for simulation is 1ps.
-Waiting for 13 sub-compilation(s) to finish...
-Compiled 28 VHDL Units
-Built simulation executable C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Test_Procesador3ICC_isim_beh.exe
-Fuse Memory Usage: 33084 KB
-Fuse CPU Usage: 2448 ms
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Test_WinMan_isim_beh.exe
+Fuse Memory Usage: 32704 KB
+Fuse CPU Usage: 1933 ms

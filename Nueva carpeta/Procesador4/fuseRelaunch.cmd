@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/Test_WinMan_isim_beh.exe" -prj "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/Test_WinMan_beh.prj" "work.Test_WinMan" 

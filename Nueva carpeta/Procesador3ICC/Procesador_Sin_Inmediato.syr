@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.44 secs
+Total CPU time to Xst completion: 0.51 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.44 secs
+Total CPU time to Xst completion: 0.52 secs
  
 --> Reading design: Procesador_Sin_Inmediato.prj
 
@@ -100,3 +100,43 @@ Slice Utilization Ratio Delta      : 5
 
 =========================================================================
 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Adder.vhd" in Library work.
+Architecture behavioral of Entity adder is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Next_Program_Counter.vhd" in Library work.
+Architecture behavioral of Entity next_program_counter is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/InstructionMemory.vhd" in Library work.
+Architecture behavioral of Entity instructionmemory is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Unidad_Control.vhd" in Library work.
+Architecture behavioral of Entity unidad_control is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Register_File.vhd" in Library work.
+Architecture behavioral of Entity register_file is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Unidad_Aritmetica.vhd" in Library work.
+Architecture behavioral of Entity unidad_aritmetica is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/SEU.vhd" in Library work.
+Architecture behavioral of Entity seu is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/MUX.vhd" in Library work.
+Architecture behavioral of Entity mux is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/PSRModifier.vhd" in Library work.
+Architecture behavioral of Entity psrmodifier is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/PSR.vhd" in Library work.
+Architecture behavioral of Entity psr is up to date.
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Procesador_Sin_Inmediato.vhd" in Library work.
+Architecture behavioral of Entity procesador_sin_inmediato is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Procesador_Sin_Inmediato> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Adder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Next_Program_Counter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <InstructionMemory> in library <work> (architecture <behavioral>).
+ERROR:Xst:1927 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/InstructionMemory.vhd" line 50: Readline passed end of file on file <RomFile>.
+ERROR:Xst:1923 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/InstructionMemory.vhd" line 51: Line <RomFileLine> has not enough elements for target <temp_bv>.
+INTERNAL_ERROR:Xst:cmain.c:3464:1.56 -  Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.  

@@ -41,11 +41,11 @@ ARCHITECTURE behavior OF Test_Register_File IS
  
     COMPONENT Register_File
     PORT(
-         Rs1 : IN  std_logic_vector(4 downto 0);
-         Rs2 : IN  std_logic_vector(4 downto 0);
+         Rs1 : IN  std_logic_vector(5 downto 0);
+         Rs2 : IN  std_logic_vector(5 downto 0);
          Data_Writer : IN  std_logic_vector(31 downto 0);
          Rst : IN  std_logic;
-         Rd : IN  std_logic_vector(4 downto 0);
+         Rd : IN  std_logic_vector(5 downto 0);
          CRs1 : OUT  std_logic_vector(31 downto 0);
          CRs2 : OUT  std_logic_vector(31 downto 0)
         );
@@ -53,11 +53,11 @@ ARCHITECTURE behavior OF Test_Register_File IS
     
 
    --Inputs
-   signal Rs1 : std_logic_vector(4 downto 0) := (others => '0');
-   signal Rs2 : std_logic_vector(4 downto 0) := (others => '0');
+   signal Rs1 : std_logic_vector(5 downto 0) := (others => '0');
+   signal Rs2 : std_logic_vector(5 downto 0) := (others => '0');
    signal Data_Writer : std_logic_vector(31 downto 0) := (others => '0');
    signal Rst : std_logic := '0';
-   signal Rd : std_logic_vector(4 downto 0) := (others => '0');
+   signal Rd : std_logic_vector(5 downto 0) := (others => '0');
 
  	--Outputs
    signal CRs1 : std_logic_vector(31 downto 0);
@@ -89,15 +89,14 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
 		Rst <= '1';
-      wait for 100 ns;	
-
-      Rst <='0';
-		Rs1 <= "10100";
-		Rs2 <= "10101";
-		Rd <= "00100";
+		wait for 100 ns;	
+		Rst <='0';
+		Rs1 <= "101000";
+		Rs2 <= "101010";
+		Rd <= "001000";
 		Data_Writer  <= "00000000000000100000000000010011";
-
-
+		wait for 100 ns;
+		Rst <='0';
       -- insert stimulus here 
 
       wait;

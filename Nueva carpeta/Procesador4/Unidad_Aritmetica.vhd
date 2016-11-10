@@ -85,6 +85,10 @@ begin
 				Data_Writer <= CRs1 xnor CRs2;
 			when "010100" => -- XORNcc
 				Data_Writer <= CRs1 xnor CRs2;
+			when "011000" => -- SAVE
+				Data_Writer <= CRs1 - CRs2;
+			when "011001" => -- RESTORE
+				Data_Writer <= CRs1 + CRs2;
 			when others => -- Cae el nop
 				Data_Writer <= (others=>'0');
 		end case;

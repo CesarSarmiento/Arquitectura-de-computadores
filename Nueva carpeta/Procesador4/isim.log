@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\Cesar\Documents\GitHub\Arquitectura-de-computadores\Nueva carpeta\Procesador3ICC\Test_Procesador3ICC_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/Test_Procesador3ICC_isim_beh.wdb 
+Running: C:\Users\Cesar\Documents\GitHub\Arquitectura-de-computadores\Nueva carpeta\Procesador4\Test_WinMan_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/Test_WinMan_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 ----------------------------------------------------------------------
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to 'C:\Users\Cesar\Downloads\windows_flexlm_v11.11'.
@@ -27,10 +27,4 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-at 0 ps, Instance /test_procesador3icc/uut/Inst_Adder/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-at 0 ps, Instance /test_procesador3icc/uut/Inst_InstructionMemory/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 0 ps, Instance /test_procesador3icc/uut/Inst_Register_File/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 0 ps, Instance /test_procesador3icc/uut/Inst_Register_File/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 0 ps, Instance /test_procesador3icc/uut/Inst_Register_File/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
-at 30 ns(2), Instance /test_procesador3icc/uut/Inst_InstructionMemory/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.

@@ -1,35 +1,40 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/xst/projnav.tmp
+--> Parameter TMPDIR set to C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.35 secs
+Total CPU time to Xst completion: 0.42 secs
  
---> Parameter xsthdpdir set to C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/xst
+--> Parameter xsthdpdir set to C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.35 secs
+Total CPU time to Xst completion: 0.42 secs
  
 --> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
 
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/PSR.vhd" in Library work.
-Entity <PSR> compiled.
-Entity <PSR> (Architecture <Behavioral>) compiled.
+WARNING:HDLParsers:3607 - Unit work/PSR is now defined in a different file.  It was defined in "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/PSR.vhd", and is now defined in "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/PSR.vhd".
+WARNING:HDLParsers:3607 - Unit work/PSR/Behavioral is now defined in a different file.  It was defined in "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/PSR.vhd", and is now defined in "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/PSR.vhd".
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/PSR.vhd" in Library work.
+Entity <psr> compiled.
+ERROR:HDLParsers:1402 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/PSR.vhd" Line 49. Object Cwp of mode IN can not be updated.
+ERROR:HDLParsers:1402 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/PSR.vhd" Line 53. Object Cwp of mode IN can not be updated.
+ERROR:HDLParsers:1402 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/PSR.vhd" Line 55. Object Cwp of mode IN can not be updated.
+ERROR:HDLParsers:1401 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador4/PSR.vhd" Line 52. Object NCwp of mode OUT can not be read.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.46 secs
+Total CPU time to Xst completion: 0.53 secs
  
 --> 
 
-Total memory usage is 213124 kilobytes
+Total memory usage is 212548 kilobytes
 
-Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

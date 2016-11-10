@@ -31,22 +31,36 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity PSR is
     Port ( NZVC : in  STD_LOGIC_VECTOR (3 downto 0);
+			  Cwp : in  STD_LOGIC;
            Rst : in  STD_LOGIC;
            Clk : in  STD_LOGIC;
+			  NCwp : out  STD_LOGIC;
            Carry : out  STD_LOGIC);
+			  
 end PSR;
 
 architecture Behavioral of PSR is
 
 begin
-		process(Rst, Clk, NZVC)
+		process(Clk)
 		begin
-			if (Rst = '1') then 		
-				Carry <= '0';
-			elsif (rising_edge(Clk)) then
-				Carry <= NZVC(0);
-				
-		end if;
+				if(rising_edge(Clk))then
+					if(Rst = '1') then
+						Cwp <= '0';
+						Carry <= '0';
+					else
+						if NCwp = '1' then
+							Cwp <= '1';
+						else
+							Cwp <= '0';
+						end if;
+						if NZVC(0) = '1' then
+							Carry <= '1';
+						else 
+							Carry <= '0';
+						end if;
+					end if;
+				end if;
 		end process;
 
 

@@ -1,0 +1,537 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.40 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.40 secs
+ 
+--> Reading design: WinMan.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "WinMan.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "WinMan"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : WinMan
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/WinMan.vhd" in Library work.
+Architecture behavioral of Entity winman is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <WinMan> in library <work> (architecture <behavioral>).
+WARNING:Xst:2094 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/WinMan.vhd" line 49: Default value is ignored for signal <Cocwp>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <WinMan> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2094 - "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/WinMan.vhd" line 49: Default value is ignored for signal <Cocwp>.
+Entity <WinMan> analyzed. Unit <WinMan> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <WinMan>.
+    Related source file is "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/WinMan.vhd".
+WARNING:Xst:646 - Signal <Cocwp<31:28>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 32-bit latch for signal <Cocwp>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 6-bit latch for signal <Rdint>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 6-bit latch for signal <Rs2int>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 6-bit latch for signal <Rs1int>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <NCwp>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 6-bit adder for signal <mux0000$add0000> created at line 117.
+    Found 6-bit subtractor for signal <mux0000$addsub0000> created at line 114.
+    Found 5-bit comparator greatequal for signal <mux0000$cmp_ge0000> created at line 113.
+    Found 5-bit comparator lessequal for signal <mux0000$cmp_le0000> created at line 110.
+    Found 6-bit adder for signal <mux0001$add0000> created at line 100.
+    Found 6-bit subtractor for signal <mux0001$addsub0000> created at line 97.
+    Found 5-bit comparator greatequal for signal <mux0001$cmp_ge0000> created at line 96.
+    Found 5-bit comparator lessequal for signal <mux0001$cmp_le0000> created at line 93.
+    Found 6-bit adder for signal <mux0002$add0000> created at line 82.
+    Found 6-bit subtractor for signal <mux0002$addsub0000> created at line 79.
+    Found 5-bit comparator greatequal for signal <mux0002$cmp_ge0000> created at line 78.
+    Found 5-bit comparator lessequal for signal <mux0002$cmp_le0000> created at line 75.
+    Found 5-bit comparator greatequal for signal <Rdint$cmp_ge0000> created at line 119.
+    Found 5-bit comparator greatequal for signal <Rdint$cmp_ge0001> created at line 116.
+    Found 5-bit comparator lessequal for signal <Rdint$cmp_le0000> created at line 119.
+    Found 5-bit comparator lessequal for signal <Rdint$cmp_le0001> created at line 116.
+    Found 5-bit comparator greatequal for signal <Rs1int$cmp_ge0000> created at line 84.
+    Found 5-bit comparator greatequal for signal <Rs1int$cmp_ge0001> created at line 81.
+    Found 5-bit comparator lessequal for signal <Rs1int$cmp_le0000> created at line 84.
+    Found 5-bit comparator lessequal for signal <Rs1int$cmp_le0001> created at line 81.
+    Found 5-bit comparator greatequal for signal <Rs2int$cmp_ge0000> created at line 102.
+    Found 5-bit comparator greatequal for signal <Rs2int$cmp_ge0001> created at line 99.
+    Found 5-bit comparator lessequal for signal <Rs2int$cmp_le0000> created at line 102.
+    Found 5-bit comparator lessequal for signal <Rs2int$cmp_le0001> created at line 99.
+    Summary:
+	inferred   6 Adder/Subtractor(s).
+	inferred  18 Comparator(s).
+Unit <WinMan> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 6-bit adder                                           : 3
+ 6-bit subtractor                                      : 3
+# Latches                                              : 5
+ 1-bit latch                                           : 1
+ 32-bit latch                                          : 1
+ 6-bit latch                                           : 3
+# Comparators                                          : 18
+ 5-bit comparator greatequal                           : 9
+ 5-bit comparator lessequal                            : 9
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <1>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 6-bit adder                                           : 3
+ 6-bit subtractor                                      : 3
+# Latches                                              : 5
+ 1-bit latch                                           : 1
+ 32-bit latch                                          : 1
+ 6-bit latch                                           : 3
+# Comparators                                          : 18
+ 5-bit comparator greatequal                           : 9
+ 5-bit comparator lessequal                            : 9
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <31> in Unit <LPM_LATCH_1> is equivalent to the following 30 FFs/Latches, which will be removed : <30> <29> <28> <27> <26> <25> <24> <23> <22> <21> <20> <19> <18> <17> <16> <15> <14> <13> <12> <11> <10> <9> <8> <7> <6> <5> <4> <3> <2> <1> 
+WARNING:Xst:1710 - FF/Latch <31> (without init value) has a constant value of 0 in block <LPM_LATCH_1>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <WinMan> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block WinMan, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : WinMan.ngr
+Top Level Output File Name         : WinMan
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 43
+
+Cell Usage :
+# BELS                             : 51
+#      INV                         : 7
+#      LUT2                        : 9
+#      LUT3                        : 31
+#      LUT4                        : 4
+# FlipFlops/Latches                : 20
+#      LD                          : 2
+#      LDCPE                       : 18
+# IO Buffers                       : 43
+#      IBUF                        : 24
+#      OBUF                        : 19
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       25  out of   4656     0%  
+ Number of Slice Flip Flops:              1  out of   9312     0%  
+ Number of 4 input LUTs:                 51  out of   9312     0%  
+ Number of IOs:                          43
+ Number of bonded IOBs:                  43  out of    232    18%  
+    IOB Flip Flops:                      19
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+---------------------------------------+------------------------+-------+
+Clock Signal                           | Clock buffer(FF name)  | Load  |
+---------------------------------------+------------------------+-------+
+Cocwp_or0000(Cocwp_or0000:O)           | NONE(*)(NCwp)          | 2     |
+Rs1int_cmp_ge0000(Rs1int_cmp_ge00001:O)| NONE(*)(Rs1int_0)      | 6     |
+Rs2int_cmp_ge0000(Rs2int_cmp_ge00001:O)| NONE(*)(Rs2int_0)      | 6     |
+Rdint_cmp_ge0000(Rdint_cmp_ge00001:O)  | NONE(*)(Rdint_0)       | 6     |
+---------------------------------------+------------------------+-------+
+(*) These 4 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------+------------------------+-------+
+Control Signal                               | Buffer(FF name)        | Load  |
+---------------------------------------------+------------------------+-------+
+Rdint_0__and0000(Rdint_0__and00001:O)        | NONE(Rdint_0)          | 1     |
+Rdint_0__and0001(Rdint_0__and00011:O)        | NONE(Rdint_0)          | 1     |
+Rdint_1__and0000(Rdint_1__and00001:O)        | NONE(Rdint_1)          | 1     |
+Rdint_1__and0001(Rdint_1__and00011:O)        | NONE(Rdint_1)          | 1     |
+Rdint_2__and0000(Rdint_2__and00001:O)        | NONE(Rdint_2)          | 1     |
+Rdint_2__and0001(Rdint_2__and00011:O)        | NONE(Rdint_2)          | 1     |
+Rdint_3__and0000(Rdint_3__and00001_INV_0:O)  | NONE(Rdint_3)          | 1     |
+Rdint_3__and0001(Rdint_3__and00011:O)        | NONE(Rdint_3)          | 1     |
+Rdint_4__and0000(Rdint_4__and00001:O)        | NONE(Rdint_4)          | 1     |
+Rdint_4__and0001(Rdint_4__and00011:O)        | NONE(Rdint_4)          | 1     |
+Rdint_5__and0000(Rdint_5__and00001:O)        | NONE(Rdint_5)          | 1     |
+Rdint_5__and0001(Rdint_mux0003<5>1:O)        | NONE(Rdint_5)          | 1     |
+Rs1int_0__and0000(Rs1int_0__and00001:O)      | NONE(Rs1int_0)         | 1     |
+Rs1int_0__and0001(Rs1int_0__and00011:O)      | NONE(Rs1int_0)         | 1     |
+Rs1int_1__and0000(Rs1int_1__and00001:O)      | NONE(Rs1int_1)         | 1     |
+Rs1int_1__and0001(Rs1int_1__and00011:O)      | NONE(Rs1int_1)         | 1     |
+Rs1int_2__and0000(Rs1int_2__and00001:O)      | NONE(Rs1int_2)         | 1     |
+Rs1int_2__and0001(Rs1int_2__and00011:O)      | NONE(Rs1int_2)         | 1     |
+Rs1int_3__and0000(Rs1int_3__and00001_INV_0:O)| NONE(Rs1int_3)         | 1     |
+Rs1int_3__and0001(Rs1int_3__and00011:O)      | NONE(Rs1int_3)         | 1     |
+Rs1int_4__and0000(Rs1int_4__and00001:O)      | NONE(Rs1int_4)         | 1     |
+Rs1int_4__and0001(Rs1int_4__and00011:O)      | NONE(Rs1int_4)         | 1     |
+Rs1int_5__and0000(Rs1int_5__and00001:O)      | NONE(Rs1int_5)         | 1     |
+Rs1int_5__and0001(Rs1int_mux0003<5>1:O)      | NONE(Rs1int_5)         | 1     |
+Rs2int_0__and0000(Rs2int_0__and00001:O)      | NONE(Rs2int_0)         | 1     |
+Rs2int_0__and0001(Rs2int_0__and00011:O)      | NONE(Rs2int_0)         | 1     |
+Rs2int_1__and0000(Rs2int_1__and00001:O)      | NONE(Rs2int_1)         | 1     |
+Rs2int_1__and0001(Rs2int_1__and00011:O)      | NONE(Rs2int_1)         | 1     |
+Rs2int_2__and0000(Rs2int_2__and00001:O)      | NONE(Rs2int_2)         | 1     |
+Rs2int_2__and0001(Rs2int_2__and00011:O)      | NONE(Rs2int_2)         | 1     |
+Rs2int_3__and0000(Rs2int_3__and00001_INV_0:O)| NONE(Rs2int_3)         | 1     |
+Rs2int_3__and0001(Rs2int_3__and00011:O)      | NONE(Rs2int_3)         | 1     |
+Rs2int_4__and0000(Rs2int_4__and00001:O)      | NONE(Rs2int_4)         | 1     |
+Rs2int_4__and0001(Rs2int_4__and00011:O)      | NONE(Rs2int_4)         | 1     |
+Rs2int_5__and0000(Rs2int_5__and00001:O)      | NONE(Rs2int_5)         | 1     |
+Rs2int_5__and0001(Rs2int_mux0003<5>1:O)      | NONE(Rs2int_5)         | 1     |
+---------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 3.620ns
+   Maximum output required time after clock: 4.114ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Cocwp_or0000'
+  Total number of paths / destination ports: 10 / 2
+-------------------------------------------------------------------------
+Offset:              3.517ns (Levels of Logic = 3)
+  Source:            Op<0> (PAD)
+  Destination:       NCwp (LATCH)
+  Destination Clock: Cocwp_or0000 falling
+
+  Data Path: Op<0> to NCwp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  Op_0_IBUF (Op_0_IBUF)
+     LUT4:I0->O            1   0.612   0.387  NCwp_mux000239 (NCwp_mux000239)
+     LUT4:I2->O            1   0.612   0.000  NCwp_mux000241 (NCwp_mux0002)
+     LD:D                      0.268          NCwp
+    ----------------------------------------
+    Total                      3.517ns (2.598ns logic, 0.919ns route)
+                                       (73.9% logic, 26.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Rs1int_cmp_ge0000'
+  Total number of paths / destination ports: 14 / 12
+-------------------------------------------------------------------------
+Offset:              3.620ns (Levels of Logic = 2)
+  Source:            Rs1<4> (PAD)
+  Destination:       Rs1int_0 (LATCH)
+  Destination Clock: Rs1int_cmp_ge0000 falling
+
+  Data Path: Rs1<4> to Rs1int_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            14   1.106   0.850  Rs1_4_IBUF (Rs1_4_IBUF)
+     INV:I->O              6   0.612   0.569  Rs1int_cmp_le00001_INV_0 (Rs1int_cmp_le0000)
+     LDCPE:GE                  0.483          Rs1int_5
+    ----------------------------------------
+    Total                      3.620ns (2.201ns logic, 1.419ns route)
+                                       (60.8% logic, 39.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Rs2int_cmp_ge0000'
+  Total number of paths / destination ports: 14 / 12
+-------------------------------------------------------------------------
+Offset:              3.620ns (Levels of Logic = 2)
+  Source:            Rs2<4> (PAD)
+  Destination:       Rs2int_0 (LATCH)
+  Destination Clock: Rs2int_cmp_ge0000 falling
+
+  Data Path: Rs2<4> to Rs2int_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            14   1.106   0.850  Rs2_4_IBUF (Rs2_4_IBUF)
+     INV:I->O              6   0.612   0.569  Rs2int_cmp_le00001_INV_0 (Rs2int_cmp_le0000)
+     LDCPE:GE                  0.483          Rs2int_5
+    ----------------------------------------
+    Total                      3.620ns (2.201ns logic, 1.419ns route)
+                                       (60.8% logic, 39.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Rdint_cmp_ge0000'
+  Total number of paths / destination ports: 14 / 12
+-------------------------------------------------------------------------
+Offset:              3.620ns (Levels of Logic = 2)
+  Source:            Rd<4> (PAD)
+  Destination:       Rdint_0 (LATCH)
+  Destination Clock: Rdint_cmp_ge0000 falling
+
+  Data Path: Rd<4> to Rdint_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            14   1.106   0.850  Rd_4_IBUF (Rd_4_IBUF)
+     INV:I->O              6   0.612   0.569  Rdint_cmp_le00001_INV_0 (Rdint_cmp_le0000)
+     LDCPE:GE                  0.483          Rdint_5
+    ----------------------------------------
+    Total                      3.620ns (2.201ns logic, 1.419ns route)
+                                       (60.8% logic, 39.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Cocwp_or0000'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.114ns (Levels of Logic = 1)
+  Source:            NCwp (LATCH)
+  Destination:       NCwp (PAD)
+  Source Clock:      Cocwp_or0000 falling
+
+  Data Path: NCwp to NCwp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.588   0.357  NCwp (NCwp_OBUF)
+     OBUF:I->O                 3.169          NCwp_OBUF (NCwp)
+    ----------------------------------------
+    Total                      4.114ns (3.757ns logic, 0.357ns route)
+                                       (91.3% logic, 8.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Rs1int_cmp_ge0000'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              4.114ns (Levels of Logic = 1)
+  Source:            Rs1int_5 (LATCH)
+  Destination:       PRs1<5> (PAD)
+  Source Clock:      Rs1int_cmp_ge0000 falling
+
+  Data Path: Rs1int_5 to PRs1<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            1   0.588   0.357  Rs1int_5 (Rs1int_5)
+     OBUF:I->O                 3.169          PRs1_5_OBUF (PRs1<5>)
+    ----------------------------------------
+    Total                      4.114ns (3.757ns logic, 0.357ns route)
+                                       (91.3% logic, 8.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Rdint_cmp_ge0000'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              4.114ns (Levels of Logic = 1)
+  Source:            Rdint_5 (LATCH)
+  Destination:       PRd<5> (PAD)
+  Source Clock:      Rdint_cmp_ge0000 falling
+
+  Data Path: Rdint_5 to PRd<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            1   0.588   0.357  Rdint_5 (Rdint_5)
+     OBUF:I->O                 3.169          PRd_5_OBUF (PRd<5>)
+    ----------------------------------------
+    Total                      4.114ns (3.757ns logic, 0.357ns route)
+                                       (91.3% logic, 8.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Rs2int_cmp_ge0000'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              4.114ns (Levels of Logic = 1)
+  Source:            Rs2int_5 (LATCH)
+  Destination:       PRs2<5> (PAD)
+  Source Clock:      Rs2int_cmp_ge0000 falling
+
+  Data Path: Rs2int_5 to PRs2<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            1   0.588   0.357  Rs2int_5 (Rs2int_5)
+     OBUF:I->O                 3.169          PRs2_5_OBUF (PRs2<5>)
+    ----------------------------------------
+    Total                      4.114ns (3.757ns logic, 0.357ns route)
+                                       (91.3% logic, 8.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 39.00 secs
+Total CPU time to Xst completion: 38.44 secs
+ 
+--> 
+
+Total memory usage is 290992 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+
