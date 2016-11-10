@@ -89,10 +89,23 @@ architecture Behavioral of Procesador_Sin_Inmediato is
 			Data_Writer : OUT std_logic_vector(31 downto 0)
 			);
 	END COMPONENT;
+	
+	COMPONENT PSRModifier
+	PORT(
+		CRS1 : IN std_logic_vector(31 downto 0);
+		CRS2 : IN std_logic_vector(31 downto 0);
+		Rst : IN std_logic;
+		Alu_op : IN std_logic_vector(5 downto 0);
+		Resultado_alu : IN std_logic_vector(31 downto 0);          
+		NZVC : OUT std_logic_vector(3 downto 0)
+		);
+	END COMPONENT;
 
 
 signal AdderToNPC,PCToAdder, PCToIM, IMToUR, AluToRF, RFToALU1, RFToALU2:STD_LOGIC_VECTOR (31 downto 0);
 signal Alu_Op:STD_LOGIC_VECTOR (5 downto 0);
+signal NZVC : std_logic_vector(3 downto 0);
+signal psr_out : std_logic;
 begin
 
 	Inst_Adder: Adder PORT MAP(
@@ -143,6 +156,16 @@ begin
 			Aluop => Alu_Op,
 			Data_Writer => AluToRF
 		);
+		
+	Inst_PSRModifier: PSRModifier PORT MAP(
+		CRS1 => ,
+		CRS2 => ,
+		Rst => ,
+		Alu_op => ,
+		Resultado_alu => ,
+		NZVC => 
+	);
+
 		
 	Resultado_Procesador <= AluToRF;
 end Behavioral;

@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+InstructionMemory instance_name (
+    .DireccionInstr(DireccionInstr), 
+    .InstruccionSIM(InstruccionSIM), 
+    .Rst(Rst)
+    );
+
+

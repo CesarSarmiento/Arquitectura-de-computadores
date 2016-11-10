@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador3ICC -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/PSR.vhi" -module PSR -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSR.vhd 

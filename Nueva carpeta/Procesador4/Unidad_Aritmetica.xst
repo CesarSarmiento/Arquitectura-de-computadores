@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3ICC/xst"
+elaborate
+-ifn Unidad_Aritmetica.prj
+-ifmt mixed

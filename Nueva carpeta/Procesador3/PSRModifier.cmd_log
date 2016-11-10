@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3/PSRModifier.xst" -ofn "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3/PSRModifier.syr" 
+vhdtdtfi -prj Procesador3 -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3/PSRModifier.vhi" -module PSRModifier -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSRModifier.vhd 
+vhdtdtfi -prj Procesador3 -o "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3/PSRModifier.vhi" -module PSRModifier -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSRModifier.vhd 

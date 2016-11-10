@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Cesar/Documents/GitHub/Arquitectura-de-computadores/Nueva carpeta/Procesador3/xst"
+elaborate
+-ifn PSRModifier.prj
+-ifmt mixed

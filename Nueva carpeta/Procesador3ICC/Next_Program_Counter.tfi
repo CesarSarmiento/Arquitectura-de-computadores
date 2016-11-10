@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Next_Program_Counter instance_name (
+    .Clk(Clk), 
+    .Rst(Rst), 
+    .In_Next(In_Next), 
+    .Out_Next(Out_Next)
+    );
+
+

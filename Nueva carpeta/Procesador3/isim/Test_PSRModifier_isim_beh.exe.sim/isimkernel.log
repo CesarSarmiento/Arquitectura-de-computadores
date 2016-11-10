@@ -1,0 +1,29 @@
+Command line:
+   Test_PSRModifier_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50262
+
+Tue Nov 08 19:18:51 2016
+
+
+ Elaboration Time: 0.1248 sec
+
+ Current Memory Usage: 666.73 Meg
+
+ Total Signals          : 12
+ Total Nets             : 107
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 467
+Total Line Count : 38
+
+ Total Simulation Time: 0.265202 sec
+
+ Current Memory Usage: 981.303 Meg
+
+Tue Nov 08 19:19:55 2016
+

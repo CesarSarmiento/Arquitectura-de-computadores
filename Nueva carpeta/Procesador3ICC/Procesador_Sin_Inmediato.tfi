@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+Procesador_Sin_Inmediato instance_name (
+    .Rst(Rst), 
+    .Clk(Clk), 
+    .Resultado_Procesador(Resultado_Procesador)
+    );
+
+

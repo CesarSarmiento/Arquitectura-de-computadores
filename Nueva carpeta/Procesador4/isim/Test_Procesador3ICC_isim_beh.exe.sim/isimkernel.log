@@ -1,0 +1,29 @@
+Command line:
+   Test_Procesador3ICC_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50348
+
+Wed Nov 09 21:06:15 2016
+
+
+ Elaboration Time: 0.171601 sec
+
+ Current Memory Usage: 671.035 Meg
+
+ Total Signals          : 67
+ Total Nets             : 3725
+ Total Signal Drivers   : 16
+ Total Blocks           : 17
+ Total Primitive Blocks : 15
+ Total Processes        : 14
+ Total Traceable Variables  : 11
+ Total Scalar Nets and Variables : 4104
+Total Line Count : 115
+
+ Total Simulation Time: 0.296402 sec
+
+ Current Memory Usage: 671.035 Meg
+
+Wed Nov 09 21:10:25 2016
+
